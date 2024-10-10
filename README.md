@@ -18,5 +18,13 @@ The project includes functionality for a table of contents with the text of each
 ## Installation
 
 Start the service using Docker
-   ```bash
+```bash
 docker-compose up
+```
+
+## Environment Configuration
+
+Copy the example environment file and rename it to `.env`:
+
+```bash
+cp .env.example .env
